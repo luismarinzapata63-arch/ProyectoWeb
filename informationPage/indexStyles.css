@@ -63,8 +63,12 @@ nav ul li a:hover {
     border-radius: 12px;
     margin-bottom: 2rem;
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
 /* Layout de Perfil */
 .profile-layout {
     display: flex;
